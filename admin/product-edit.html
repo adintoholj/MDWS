@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="bs">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Admin — Uredi/Dodaj proizvod</title>
+  <link rel="stylesheet" href="../assets/css/styles.css" />
+</head>
+<body>
+  <main class="container">
+    <a class="muted" href="products.html">← Nazad</a>
+    <h1>Dodaj / Uredi proizvod</h1>
+
+    <form class="card" onsubmit="event.preventDefault(); alert('Sačuvano (prototip).');">
+      <div class="field"><label>Naziv</label><input required /></div>
+
+      <div class="row">
+        <div class="field"><label>Brend</label><input required /></div>
+        <div class="field"><label>Kategorija</label>
+          <select required>
+            <option>Telefoni</option><option>Oprema</option><option>Slušalice</option><option>Punjači</option><option>Zaštita</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="field"><label>Cijena (KM)</label><input type="number" required /></div>
+        <div class="field"><label>Zaliha (kom)</label><input type="number" required /></div>
+      </div>
+
+      <div class="field"><label>Opis</label><textarea rows="4"></textarea></div>
+      <div class="field"><label>Slike (URL-ovi)</label><input placeholder="https://..." /></div>
+
+      <div class="row">
+        <button class="btn primary" type="submit">Sačuvaj</button>
+        <button class="btn danger" type="button" onclick="confirm('Obrisati? (prototip)')">Obriši</button>
+      </div>
+    </form>
+  </main>
+</body>
+</html>

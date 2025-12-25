@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="bs">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Admin — Arhiva</title>
+  <link rel="stylesheet" href="../assets/css/styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Arhiva podataka i izvještaja</h1>
+
+    <div class="card">
+      <h2>Arhiviraj</h2>
+      <div class="row">
+        <select>
+          <option>Izvještaj: Prodaja (mjesec)</option>
+          <option>Izvještaj: Zalihe</option>
+          <option>Podaci: Narudžbe</option>
+        </select>
+        <button class="btn primary" type="button" onclick="alert('Izvještaj je uspješno arhiviran.')">Arhiviraj</button>
+      </div>
+
+      <h2>Pretraga arhive</h2>
+      <div class="row">
+        <input type="date" />
+        <input type="date" />
+        <select>
+          <option>Tip: svi</option>
+          <option>PDF</option>
+          <option>Excel</option>
+        </select>
+        <button class="btn" type="button" onclick="alert('Prikaz filtriran (prototip).')">Pretraži</button>
+      </div>
+
+      <h2>Arhivirani fajlovi</h2>
+      <ul class="list">
+        <li>2025-12 — Prodaja — PDF <button class="btn" type="button">Preuzmi</button></li>
+        <li>2025-12 — Zalihe — Excel <button class="btn" type="button">Preuzmi</button></li>
+      </ul>
+    </div>
+  </main>
+</body>
+</html>

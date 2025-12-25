@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="bs">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Admin — Proizvodi</title>
+  <link rel="stylesheet" href="../assets/css/styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header__row">
+      <a class="logo" href="dashboard.html">Admin panel</a>
+      <nav class="nav">
+        <a class="active" href="products.html">Proizvodi</a>
+        <a href="categories.html">Kategorije</a>
+        <a href="orders.html">Narudžbe</a>
+        <a href="reports.html">Izvještaji</a>
+        <a href="archive.html">Arhiva</a>
+        <a href="backup.html">Backup</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="section-head">
+      <h1>Proizvodi</h1>
+      <a class="btn primary" href="product-edit.html">+ Dodaj proizvod</a>
+    </div>
+
+    <div class="card">
+      <table class="table">
+        <thead>
+          <tr><th>Naziv</th><th>Brend</th><th>Cijena</th><th>Zaliha</th><th></th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Samsung Galaxy S24</td><td>Samsung</td><td>999 KM</td><td>7</td><td><a class="btn" href="product-edit.html">Uredi</a></td></tr>
+          <tr><td>iPhone 15</td><td>Apple</td><td>1499 KM</td><td>3</td><td><a class="btn" href="product-edit.html">Uredi</a></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+</body>
+</html>

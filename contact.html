@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="bs">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kontakt — Mobile Web Shop</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <main class="container narrow">
+    <div class="card">
+      <h1>Kontakt</h1>
+      <form onsubmit="event.preventDefault(); alert('Poruka poslana (prototip).');">
+        <div class="field"><label>Ime</label><input required /></div>
+        <div class="field"><label>E-mail</label><input type="email" required /></div>
+        <div class="field"><label>Poruka</label><textarea rows="5" required></textarea></div>
+        <button class="btn primary" type="submit">Pošalji</button>
+      </form>
+    </div>
+  </main>
+</body>
+</html>
