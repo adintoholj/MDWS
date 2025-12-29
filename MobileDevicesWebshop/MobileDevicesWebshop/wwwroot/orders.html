@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="bs">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Narudžbe — Mobile Web Shop</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script defer src="assets/js/app.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="container header__row">
+      <a class="logo" href="index.html">Mobile Web Shop</a>
+      <nav class="nav">
+        <a href="products.html">Proizvodi</a>
+        <a class="active" href="orders.html">Narudžbe</a>
+        <a class="pill" href="cart.html">Korpa <span id="cartCount">0</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Historija narudžbi</h1>
+    <div class="card">
+      <table class="table">
+        <thead>
+          <tr><th>Broj</th><th>Datum</th><th>Status</th><th>Total</th><th></th></tr>
+        </thead>
+        <tbody>
+          <tr><td>#10021</td><td>2025-12-21</td><td>Plaćena</td><td>1.009,00 KM</td><td><a class="btn" href="order-detail.html">Detalji</a></td></tr>
+          <tr><td>#10020</td><td>2025-12-18</td><td>Dostavljena</td><td>899,00 KM</td><td><a class="btn" href="order-detail.html">Detalji</a></td></tr>
+        </tbody>
+      </table>
+      <p class="note">REQ: pregled statusa narudžbi i historije kupovina.</p>
+    </div>
+  </main>
+</body>
+</html>

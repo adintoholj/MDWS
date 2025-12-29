@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="bs">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mobile Web Shop — Prototip</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script defer src="assets/js/app.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="container header__row">
+      <a class="logo" href="index.html">Mobile Web Shop</a>
+
+      <form class="search" action="products.html">
+        <input name="q" type="search" placeholder="Pretraga (naziv, brend)..." />
+        <button type="submit">Traži</button>
+      </form>
+
+      <nav class="nav">
+        <a href="products.html">Proizvodi</a>
+        <a href="contact.html">Kontakt</a>
+        <a class="pill" href="cart.html">Korpa <span id="cartCount">0</span></a>
+        <a class="pill" href="login.html">Prijava</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Web prodavnica mobilnih uređaja</h1>
+      <p>Pregledaj, filtriraj i kupi uređaje brzo i jednostavno. (Klikabilan prototip)</p>
+      <div class="hero__actions">
+        <a class="btn primary" href="products.html">Pregledaj proizvode</a>
+        <a class="btn" href="register.html">Registruj se</a>
+      </div>
+      <p class="note">BP-01: samo registrovani korisnici mogu obaviti kupovinu (checkout traži prijavu).</p>
+    </section>
+
+    <section>
+      <h2>Kategorije</h2>
+      <div class="grid">
+        <a class="card" href="products.html#cat=telefoni"><h3>Telefoni</h3><p>Najnoviji modeli</p></a>
+        <a class="card" href="products.html#cat=oprema"><h3>Oprema</h3><p>Kablovi, adapteri</p></a>
+        <a class="card" href="products.html#cat=slusalice"><h3>Slušalice</h3><p>Bežične i žične</p></a>
+        <a class="card" href="products.html#cat=punjaci"><h3>Punjači</h3><p>Brzo punjenje</p></a>
+        <a class="card" href="products.html#cat=zastita"><h3>Zaštita</h3><p>Maskice, stakla</p></a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Brzi linkovi</h2>
+      <div class="grid">
+        <a class="card" href="profile.html"><h3>Moj profil</h3><p>Podaci i narudžbe</p></a>
+        <a class="card" href="orders.html"><h3>Historija narudžbi</h3><p>Statusi i detalji</p></a>
+        <a class="card" href="faq.html"><h3>FAQ</h3><p>Često postavljena pitanja</p></a>
+        <a class="card" href="admin/login.html"><h3>Admin</h3><p>Prijava zaposlenih</p></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__row">
+      <span>© 2025 Mobile Web Shop (prototip)</span>
+      <span class="muted">
+        <a href="contact.html">Kontakt</a> ·
+        <a href="faq.html">FAQ</a> ·
+        <a href="admin/login.html">Admin</a>
+      </span>
+    </div>
+  </footer>
+</body>
+</html>

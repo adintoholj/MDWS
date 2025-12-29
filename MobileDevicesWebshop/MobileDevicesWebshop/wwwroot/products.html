@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="bs">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Proizvodi — Mobile Web Shop</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script defer src="assets/js/app.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="container header__row">
+      <a class="logo" href="index.html">Mobile Web Shop</a>
+      <form class="search" action="products.html">
+        <input name="q" type="search" placeholder="Pretraga po nazivu, brendu..." />
+        <button type="submit">Traži</button>
+      </form>
+      <nav class="nav">
+        <a class="active" href="products.html">Proizvodi</a>
+        <a href="contact.html">Kontakt</a>
+        <a class="pill" href="cart.html">Korpa <span id="cartCount">0</span></a>
+        <a class="pill" href="login.html">Prijava</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container two-col">
+    <aside class="sidebar">
+      <h2>Filteri</h2>
+
+      <div class="field">
+        <label>Kategorija</label>
+        <select>
+          <option>Sve</option>
+          <option>Telefoni</option>
+          <option>Oprema</option>
+          <option>Slušalice</option>
+          <option>Punjači</option>
+          <option>Zaštita</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label>Brend</label>
+        <select>
+          <option>Svi</option>
+          <option>Apple</option>
+          <option>Samsung</option>
+          <option>Xiaomi</option>
+          <option>Google</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label>Cijena</label>
+        <div class="row">
+          <input type="number" placeholder="Min" />
+          <input type="number" placeholder="Max" />
+        </div>
+      </div>
+
+      <div class="field">
+        <label>Ocjena</label>
+        <select>
+          <option>Bilo koja</option>
+          <option>4★ i više</option>
+          <option>3★ i više</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label>Sortiraj</label>
+        <select>
+          <option>Popularnost</option>
+          <option>Cijena: niska → visoka</option>
+          <option>Cijena: visoka → niska</option>
+          <option>Ocjena</option>
+        </select>
+      </div>
+
+      <button class="btn primary" type="button" onclick="alert('U prototipu filteri ne filtriraju stvarno, ali UI je tu (REQ 4.3).')">Primijeni</button>
+      <p class="note">REQ 4.3: pretraga, filtriranje i sortiranje (UI prototip).</p>
+    </aside>
+
+    <section>
+      <div class="section-head">
+        <h1>Proizvodi</h1>
+        <div class="muted">Klikni na karticu za detalje ili “Dodaj u korpu”.</div>
+      </div>
+
+      <div class="grid products">
+        <article class="card product">
+          <a href="product.html">
+            <div class="thumb">Slika</div>
+            <h3>Samsung Galaxy S24</h3>
+          </a>
+          <p class="muted">Brend: Samsung · 999,00 KM</p>
+          <div class="row">
+            <button class="btn" type="button" onclick="app.addToCart('Samsung Galaxy S24')">Dodaj u korpu</button>
+            <a class="btn" href="product.html">Detalji</a>
+          </div>
+        </article>
+
+        <article class="card product">
+          <a href="product.html">
+            <div class="thumb">Slika</div>
+            <h3>iPhone 15</h3>
+          </a>
+          <p class="muted">Brend: Apple · 1.499,00 KM</p>
+          <div class="row">
+            <button class="btn" type="button" onclick="app.addToCart('iPhone 15')">Dodaj u korpu</button>
+            <a class="btn" href="product.html">Detalji</a>
+          </div>
+        </article>
+
+        <article class="card product">
+          <a href="product.html">
+            <div class="thumb">Slika</div>
+            <h3>Xiaomi 14</h3>
+          </a>
+          <p class="muted">Brend: Xiaomi · 899,00 KM</p>
+          <div class="row">
+            <button class="btn" type="button" onclick="app.addToCart('Xiaomi 14')">Dodaj u korpu</button>
+            <a class="btn" href="product.html">Detalji</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

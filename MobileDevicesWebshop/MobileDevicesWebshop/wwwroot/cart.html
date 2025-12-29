@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="bs">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Korpa — Mobile Web Shop</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script defer src="assets/js/app.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="container header__row">
+      <a class="logo" href="index.html">Mobile Web Shop</a>
+      <nav class="nav">
+        <a href="products.html">Proizvodi</a>
+        <a href="contact.html">Kontakt</a>
+        <a class="pill active" href="cart.html">Korpa <span id="cartCount">0</span></a>
+        <a class="pill" href="login.html">Prijava</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Korpa</h1>
+
+    <div class="card">
+      <div class="row between">
+        <strong>Stavke</strong>
+        <button class="btn" type="button" onclick="app.clearCart()">Očisti korpu</button>
+      </div>
+      <div id="cartItems" class="list"></div>
+      <p class="note">REQ 4.5: izmjena količine/uklanjanje (u prototipu pojednostavljeno).</p>
+    </div>
+
+    <div class="two-col">
+      <div></div>
+      <div class="card">
+        <h2>Sažetak</h2>
+
+        <div class="field">
+          <label>Kupon kod (opcionalno)</label>
+          <input type="text" placeholder="Npr. POPUST10" />
+        </div>
+
+        <div class="row between">
+          <span>Subtotal</span>
+          <strong id="subtotal">0,00 KM</strong>
+        </div>
+        <div class="row between">
+          <span>Dostava</span>
+          <strong>10,00 KM</strong>
+        </div>
+        <hr />
+        <div class="row between">
+          <span>Total</span>
+          <strong id="total">0,00 KM</strong>
+        </div>
+
+        <a class="btn primary full" href="checkout.html">Nastavi na plaćanje</a>
+        <p class="note">BP-01: checkout traži prijavu.</p>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
