@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="bs">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Narudžbe — Mobile Web Shop</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script defer src="assets/js/app.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container header__row">
+            <a class="logo" href="index.html">Mobile Web Shop</a>
+            <nav class="nav">
+                <a href="products.html">Proizvodi</a>
+                <a class="active" href="orders.html">Narudžbe</a>
+                <a class="pill" href="cart.html">Korpa <span id="cartCount">0</span></a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1>Historija narudžbi</h1>
+
+        <div class="card">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Broj</th>
+                        <th>Status</th>
+                        <th>Total</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="ordersTableBody">
+                    <!-- puni se iz API-ja -->
+                </tbody>
+            </table>
+
+            <p class="note">REQ: pregled statusa narudžbi i historije kupovina.</p>
+        </div>
+    </main>
+</body>
+</html>

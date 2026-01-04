@@ -1,0 +1,137 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\kukul\\source\\repos\\Mobile Devices Web Shop\\Mobile Devices Web Shop\\wwwroot\\admin\\archive.html",
+      "PackagePath": "staticwebassets\\admin\\archive.html"
+    },
+    {
+      "Id": "C:\\Users\\kukul\\source\\repos\\Mobile Devices Web Shop\\Mobile Devices Web Shop\\wwwroot\\admin\\backup.html",
+      "PackagePath": "staticwebassets\\admin\\backup.html"
+    },
+    {
+      "Id": "C:\\Users\\kukul\\source\\repos\\Mobile Devices Web Shop\\Mobile Devices Web Shop\\wwwroot\\admin\\categories.html",
+      "PackagePath": "staticwebassets\\admin\\categories.html"
+    },
+    {
+      "Id": "C:\\Users\\kukul\\source\\repos\\Mobile Devices Web Shop\\Mobile Devices Web Shop\\wwwroot\\admin\\dashboard.html",
+      "PackagePath": "staticwebassets\\admin\\dashboard.html"
+    },
+    {
+      "Id": "C:\\Users\\kukul\\source\\repos\\Mobile Devices Web Shop\\Mobile Devices Web Shop\\wwwroot\\admin\\login.html",
+      "PackagePath": "staticwebassets\\admin\\login.html"
+    },
+    {
+      "Id": "C:\\Users\\kukul\\source\\repos\\Mobile Devices Web Shop\\Mobile Devices Web Shop\\wwwroot\\admin\\order-detail.html",
+      "PackagePath": "staticwebassets\\admin\\order-detail.html"
+    },
+    {
+      "Id": "C:\\Users\\kukul\\source\\repos\\Mobile Devices Web Shop\\Mobile Devices Web Shop\\wwwroot\\admin\\orders.html",
+      "PackagePath": "staticwebassets\\admin\\orders.html"
+    },
+    {
+      "Id": "C:\\Users\\kukul\\source\\repos\\Mobile Devices Web Shop\\Mobile Devices Web Shop\\wwwroot\\admin\\product-edit.html",
+      "PackagePath": "staticwebassets\\admin\\product-edit.html"
+    },
+    {
+      "Id": "C:\\Users\\kukul\\source\\repos\\Mobile Devices Web Shop\\Mobile Devices Web Shop\\wwwroot\\admin\\products.html",
+      "PackagePath": "staticwebassets\\admin\\products.html"
+    },
+    {
+      "Id": "C:\\Users\\kukul\\source\\repos\\Mobile Devices Web Shop\\Mobile Devices Web Shop\\wwwroot\\admin\\reports.html",
+      "PackagePath": "staticwebassets\\admin\\reports.html"
+    },
+    {
+      "Id": "C:\\Users\\kukul\\source\\repos\\Mobile Devices Web Shop\\Mobile Devices Web Shop\\wwwroot\\admin\\users.html",
+      "PackagePath": "staticwebassets\\admin\\users.html"
+    },
+    {
+      "Id": "C:\\Users\\kukul\\source\\repos\\Mobile Devices Web Shop\\Mobile Devices Web Shop\\wwwroot\\assets\\css\\styles.css",
+      "PackagePath": "staticwebassets\\assets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\kukul\\source\\repos\\Mobile Devices Web Shop\\Mobile Devices Web Shop\\wwwroot\\assets\\js\\app.js",
+      "PackagePath": "staticwebassets\\assets\\js\\app.js"
+    },
+    {
+      "Id": "C:\\Users\\kukul\\source\\repos\\Mobile Devices Web Shop\\Mobile Devices Web Shop\\wwwroot\\cart.html",
+      "PackagePath": "staticwebassets\\cart.html"
+    },
+    {
+      "Id": "C:\\Users\\kukul\\source\\repos\\Mobile Devices Web Shop\\Mobile Devices Web Shop\\wwwroot\\checkout.html",
+      "PackagePath": "staticwebassets\\checkout.html"
+    },
+    {
+      "Id": "C:\\Users\\kukul\\source\\repos\\Mobile Devices Web Shop\\Mobile Devices Web Shop\\wwwroot\\contact.html",
+      "PackagePath": "staticwebassets\\contact.html"
+    },
+    {
+      "Id": "C:\\Users\\kukul\\source\\repos\\Mobile Devices Web Shop\\Mobile Devices Web Shop\\wwwroot\\faq.html",
+      "PackagePath": "staticwebassets\\faq.html"
+    },
+    {
+      "Id": "C:\\Users\\kukul\\source\\repos\\Mobile Devices Web Shop\\Mobile Devices Web Shop\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\kukul\\source\\repos\\Mobile Devices Web Shop\\Mobile Devices Web Shop\\wwwroot\\login.html",
+      "PackagePath": "staticwebassets\\login.html"
+    },
+    {
+      "Id": "C:\\Users\\kukul\\source\\repos\\Mobile Devices Web Shop\\Mobile Devices Web Shop\\wwwroot\\order-detail.html",
+      "PackagePath": "staticwebassets\\order-detail.html"
+    },
+    {
+      "Id": "C:\\Users\\kukul\\source\\repos\\Mobile Devices Web Shop\\Mobile Devices Web Shop\\wwwroot\\orders.html",
+      "PackagePath": "staticwebassets\\orders.html"
+    },
+    {
+      "Id": "C:\\Users\\kukul\\source\\repos\\Mobile Devices Web Shop\\Mobile Devices Web Shop\\wwwroot\\payment-fail.html",
+      "PackagePath": "staticwebassets\\payment-fail.html"
+    },
+    {
+      "Id": "C:\\Users\\kukul\\source\\repos\\Mobile Devices Web Shop\\Mobile Devices Web Shop\\wwwroot\\payment-success.html",
+      "PackagePath": "staticwebassets\\payment-success.html"
+    },
+    {
+      "Id": "C:\\Users\\kukul\\source\\repos\\Mobile Devices Web Shop\\Mobile Devices Web Shop\\wwwroot\\product.html",
+      "PackagePath": "staticwebassets\\product.html"
+    },
+    {
+      "Id": "C:\\Users\\kukul\\source\\repos\\Mobile Devices Web Shop\\Mobile Devices Web Shop\\wwwroot\\products.html",
+      "PackagePath": "staticwebassets\\products.html"
+    },
+    {
+      "Id": "C:\\Users\\kukul\\source\\repos\\Mobile Devices Web Shop\\Mobile Devices Web Shop\\wwwroot\\profile.html",
+      "PackagePath": "staticwebassets\\profile.html"
+    },
+    {
+      "Id": "C:\\Users\\kukul\\source\\repos\\Mobile Devices Web Shop\\Mobile Devices Web Shop\\wwwroot\\register.html",
+      "PackagePath": "staticwebassets\\register.html"
+    },
+    {
+      "Id": "C:\\Users\\kukul\\source\\repos\\Mobile Devices Web Shop\\Mobile Devices Web Shop\\wwwroot\\verify-email.html",
+      "PackagePath": "staticwebassets\\verify-email.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Mobile Devices Web Shop.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Mobile Devices Web Shop.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Mobile Devices Web Shop.props",
+      "PackagePath": "build\\Mobile Devices Web Shop.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Mobile Devices Web Shop.props",
+      "PackagePath": "buildMultiTargeting\\Mobile Devices Web Shop.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Mobile Devices Web Shop.props",
+      "PackagePath": "buildTransitive\\Mobile Devices Web Shop.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

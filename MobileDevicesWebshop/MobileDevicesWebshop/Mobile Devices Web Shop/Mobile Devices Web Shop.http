@@ -1,0 +1,6 @@
+@Mobile_Devices_Web_Shop_HostAddress = http://localhost:5103
+
+GET {{Mobile_Devices_Web_Shop_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

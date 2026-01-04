@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="bs">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Checkout — Mobile Web Shop</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script defer src="assets/js/app.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container header__row">
+            <a class="logo" href="index.html">Mobile Web Shop</a>
+            <nav class="nav">
+                <a href="products.html">Proizvodi</a>
+                <a href="contact.html">Kontakt</a>
+                <a class="pill" href="cart.html">Korpa <span id="cartCount">0</span></a>
+                <a class="pill" href="login.html">Prijava</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1>Checkout</h1>
+
+        <div class="two-col">
+            <div class="card">
+                <h2>Podaci za dostavu</h2>
+
+                <div class="field">
+                    <label>Ime i prezime</label>
+                    <input type="text" placeholder="Ime Prezime" />
+                </div>
+
+                <div class="field">
+                    <label>Adresa</label>
+                    <input type="text" placeholder="Ulica i broj" />
+                </div>
+
+                <div class="field">
+                    <label>Grad</label>
+                    <input type="text" placeholder="Grad" />
+                </div>
+
+                <div class="field">
+                    <label>Način plaćanja</label>
+                    <select>
+                        <option>Gotovina</option>
+                        <option>Kartica</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>Sažetak narudžbe</h2>
+
+                <div id="checkoutItems" class="list"></div>
+
+                <hr />
+
+                <div class="row between">
+                    <span>Total</span>
+                    <strong id="checkoutTotal">0,00 KM</strong>
+                </div>
+
+                <button class="btn primary full" type="button" onclick="app.checkoutBackend()">
+                    Potvrdi narudžbu
+                </button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

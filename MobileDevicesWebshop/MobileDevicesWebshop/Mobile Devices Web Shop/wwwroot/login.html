@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="bs">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Prijava — Mobile Web Shop</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script defer src="assets/js/app.js"></script>
+</head>
+<body>
+    <main class="container narrow">
+        <div class="card">
+            <h1>Prijava</h1>
+
+            <form onsubmit="return app.login(event)">
+                <div class="field">
+                    <label>E-mail</label>
+                    <input name="email" type="email" required placeholder="npr. user@mail.com" />
+                </div>
+
+                <div class="field">
+                    <label>Lozinka</label>
+                    <input name="password" type="password" required placeholder="••••••••" />
+                </div>
+
+                <div class="row">
+                    <button class="btn primary" type="submit">Prijavi se</button>
+                    <a class="btn" href="index.html">Nazad</a>
+                </div>
+
+                <p id="loginMsg" class="note"></p>
+                <p class="muted">Nemaš nalog? <a href="register.html">Registruj se</a></p>
+            </form>
+        </div>
+
+        <div class="card">
+            <h2>Test u prototipu</h2>
+            <ul class="muted">
+                <li>Prijava uspješna: email bilo koji, lozinka <code>test</code></li>
+                <li>Nalog nije aktiviran: lozinka <code>inactive</code></li>
+                <li>Pogrešno: bilo šta drugo</li>
+            </ul>
+        </div>
+    </main>
+</body>
+</html>

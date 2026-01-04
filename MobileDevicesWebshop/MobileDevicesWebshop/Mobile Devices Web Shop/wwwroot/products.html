@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="bs">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Proizvodi — Mobile Web Shop</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script defer src="assets/js/app.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container header__row">
+            <a class="logo" href="index.html">Mobile Web Shop</a>
+
+            <form class="search" action="products.html">
+                <input name="q" type="search" placeholder="Pretraga po nazivu, brendu..." />
+                <button type="submit">Traži</button>
+            </form>
+
+            <nav class="nav">
+                <a class="active" href="products.html">Proizvodi</a>
+                <a href="contact.html">Kontakt</a>
+                <a class="pill" href="cart.html">Korpa <span id="cartCount">0</span></a>
+                <a class="pill" href="login.html">Prijava</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container two-col">
+        <aside class="sidebar">
+            <h2>Filteri</h2>
+
+            <div class="field">
+                <label>Kategorija</label>
+                <select disabled>
+                    <option>Sve</option>
+                </select>
+            </div>
+
+            <div class="field">
+                <label>Brend</label>
+                <select disabled>
+                    <option>Svi</option>
+                </select>
+            </div>
+
+            <div class="field">
+                <label>Cijena</label>
+                <div class="row">
+                    <input type="number" placeholder="Min" disabled />
+                    <input type="number" placeholder="Max" disabled />
+                </div>
+            </div>
+
+            <button class="btn primary" type="button" disabled>
+                Primijeni
+            </button>
+
+            <p class="note">REQ 4.3: UI filtera (backend filtriranje kasnije).</p>
+        </aside>
+
+        <section>
+            <div class="section-head">
+                <h1>Proizvodi</h1>
+                <div class="muted">Podaci se učitavaju iz sistema.</div>
+            </div>
+
+            <div class="grid products" id="productsContainer">
+                <!-- proizvodi se učitavaju iz API-ja -->
+            </div>
+        </section>
+    </main>
+</body>
+</html>

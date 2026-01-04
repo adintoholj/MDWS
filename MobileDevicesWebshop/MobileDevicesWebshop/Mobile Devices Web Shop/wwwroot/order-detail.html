@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="bs">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Detalj narudžbe — Mobile Web Shop</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script defer src="assets/js/app.js"></script>
+</head>
+<body>
+    <main class="container">
+        <a class="muted" href="orders.html">← Nazad</a>
+
+        <h1>Narudžba <span id="orderId">#</span></h1>
+
+        <div class="card">
+            <div class="row between">
+                <div><strong>Status:</strong> <span id="orderStatus">—</span></div>
+                <div><strong>Datum:</strong> <span id="orderDate">—</span></div>
+            </div>
+
+            <hr />
+
+            <h2>Stavke</h2>
+            <ul class="list" id="orderItems"></ul>
+
+            <hr />
+
+            <div class="row between">
+                <strong>Total</strong>
+                <strong id="orderTotal">0,00 KM</strong>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

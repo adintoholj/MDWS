@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="bs">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Admin — Detalj narudžbe</title>
+  <link rel="stylesheet" href="../assets/css/styles.css" />
+</head>
+<body>
+  <main class="container">
+    <a class="muted" href="orders.html">← Nazad</a>
+    <h1>Narudžba #10021</h1>
+
+    <div class="card">
+      <div class="row between">
+        <div><strong>Kupac:</strong> test@mail.com</div>
+        <div><strong>Total:</strong> 1009 KM</div>
+      </div>
+
+      <div class="field">
+        <label>Status</label>
+        <select>
+          <option>Kreirana</option>
+          <option selected>Plaćena</option>
+          <option>U obradi</option>
+          <option>Poslana</option>
+          <option>Dostavljena</option>
+          <option>Otkazana</option>
+        </select>
+      </div>
+
+      <button class="btn primary" type="button" onclick="alert('Status ažuriran + email poslan (prototip).')">Sačuvaj status</button>
+    </div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="bs">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Admin prijava — Mobile Web Shop</title>
+  <link rel="stylesheet" href="../assets/css/styles.css" />
+  <script defer src="../assets/js/app.js"></script>
+</head>
+<body>
+  <main class="container narrow">
+    <div class="card">
+      <h1>Admin prijava</h1>
+      <form onsubmit="event.preventDefault(); window.location.href='dashboard.html';">
+        <div class="field"><label>E-mail</label><input type="email" required /></div>
+        <div class="field"><label>Lozinka</label><input type="password" required /></div>
+        <button class="btn primary" type="submit">Prijavi se</button>
+      </form>
+    </div>
+  </main>
+</body>
+</html>

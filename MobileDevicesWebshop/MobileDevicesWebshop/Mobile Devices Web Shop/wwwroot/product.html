@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="bs">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Detalj proizvoda — Mobile Web Shop</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script defer src="assets/js/app.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container header__row">
+            <a class="logo" href="index.html">Mobile Web Shop</a>
+            <nav class="nav">
+                <a href="products.html">Proizvodi</a>
+                <a href="contact.html">Kontakt</a>
+                <a class="pill" href="cart.html">Korpa <span id="cartCount">0</span></a>
+                <a class="pill" href="login.html">Prijava</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <a class="muted" href="products.html">← Nazad na proizvode</a>
+
+        <div class="product-detail">
+            <div class="gallery">
+                <div class="thumb big">Galerija slika</div>
+                <div class="row">
+                    <div class="thumb">1</div>
+                    <div class="thumb">2</div>
+                    <div class="thumb">3</div>
+                </div>
+            </div>
+
+            <div class="info">
+                <h1 id="productName">—</h1>
+                <p class="muted" id="productMeta">—</p>
+                <p class="price" id="productPrice">0,00 KM</p>
+                <p><strong>Dostupnost:</strong> <span id="productStock">—</span></p>
+
+                <div class="row">
+                    <button class="btn primary" type="button" id="addToCartBtn">
+                        Dodaj u korpu
+                    </button>
+                    <a class="btn" href="cart.html">Idi na korpu</a>
+                </div>
+
+                <h2>Specifikacije</h2>
+                <table class="table">
+                    <tr><th>Ekran</th><td>—</td></tr>
+                    <tr><th>Memorija</th><td>—</td></tr>
+                    <tr><th>RAM</th><td>—</td></tr>
+                    <tr><th>Kamera</th><td>—</td></tr>
+                </table>
+
+                <h2>Recenzije</h2>
+                <p class="muted">Sekcija za buduću implementaciju.</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

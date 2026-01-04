@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Mobile Devices Web Shop.props" />
+</Project>

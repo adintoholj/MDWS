@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="bs">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Admin — Backup</title>
+  <link rel="stylesheet" href="../assets/css/styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Backup / Restore</h1>
+
+    <div class="card">
+      <p><strong>Posljednji backup:</strong> 2025-12-23 02:00</p>
+      <div class="row">
+        <button class="btn primary" type="button" onclick="alert('Backup uspješno izvršen (prototip).')">Pokreni backup</button>
+        <button class="btn" type="button" onclick="alert('Restore završen (prototip).')">Restore</button>
+      </div>
+
+      <h2>Audit log</h2>
+      <table class="table">
+        <thead><tr><th>Vrijeme</th><th>Akcija</th><th>Korisnik</th><th>Rezultat</th></tr></thead>
+        <tbody>
+          <tr><td>2025-12-23 02:00</td><td>BACKUP</td><td>system</td><td>OK</td></tr>
+          <tr><td>2025-12-22 12:15</td><td>RESTORE</td><td>admin</td><td>OK</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+</body>
+</html>
